@@ -1,0 +1,59 @@
+
+
+.hero-wrapper {
+    height: 810px;
+}
+.my-services-wrapper{
+    height: 810px;
+}
+
+.hero-wrapper > div > h3 {
+    font-size: 36px;
+}
+.hero-wrapper > div > h1 {
+    font-size: 140px;
+}
+.hero-wrapper > div > p {
+    font-size: 22px;
+}
+
+.head{
+    font-size: clamp(2.5rem , 1rem + 5vw, 5.625rem);
+}
+
+
+
+        /* Media quary */
+
+@media (min-width: 1200px) {
+    .hero-wrapper {
+        height: 910px;
+    }
+    .hero-wrapper > div > h3 {
+        font-size: 85px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero-wrapper {
+        height: 750px;
+    }
+    .hero-wrapper > div > h3 {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-wrapper {
+        height: 1200px;
+    }
+    .hero-wrapper > div > h3 {
+        font-size: 50px;
+    }
+}
+
+
+
+
+
+
