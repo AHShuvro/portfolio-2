@@ -55,13 +55,13 @@ const Header1 = () => {
                                     </div>
                                 </div>
                                 <div className=''>
-                                    <Link to={'/service'}><li onMouseEnter={() => setDropdown('Pages')}
+                                    <Link to={'/about'}><li onMouseEnter={() => setDropdown('Pages')}
                                         onMouseLeave={() => setDropdown('')} className=' text-[1.12rem]  text-[#858792]'>Pages</li></Link>
                                     <div onMouseEnter={() => setDropdown('Pages')}
                                         onMouseLeave={() => setDropdown('')} className={dropdown === "Pages" ? `absolute bg-[#2A2C39] pb-3 pl-4 pr-10` : `hidden`}>
-                                        <Link to={'/service'}><li className=' text-[1.12rem] pt-3 text-[#858792]'>Pages</li></Link>
+                                        <Link to={'/about'}><li className=' text-[1.12rem] pt-3 text-[#858792]'>About Us</li></Link>
 
-                                        <Link to={'/'}><li className=' text-[1.12rem] pt-3 text-[#858792]'>Pages Details</li></Link>
+                                        <Link to={'/project'}><li className=' text-[1.12rem] pt-3 text-[#858792]'>Project</li></Link>
                                     </div>
                                 </div>
 
