@@ -16,9 +16,6 @@ const FavouriteClients = () => {
                 </div>
                 <div className='flex justify-between mt-[7.5rem]'>
 
-
-
-
                     <Swiper
                         slidesPerView={4}
                         spaceBetween={80}

@@ -65,7 +65,7 @@ const Header1 = () => {
                                     </div>
                                 </div>
 
-                                <li className=' text-[1.12rem] leading-[7.5rem] text-[#858792]'>Contact</li>
+                                <Link to={"/contact"}><li className=' text-[1.12rem] leading-[7.5rem] text-[#858792]'>Contact</li></Link>
                             </ul>
                         </div>
                         <div className="navbar-end">
