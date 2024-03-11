@@ -8,10 +8,10 @@ import './../Font.css'
 import { MdWeb } from "react-icons/md";
 import { CgChevronDoubleRight } from "react-icons/cg";
 import { services } from '../../Data/Data';
+import { Link } from 'react-router-dom';
 
 
 const Service = () => {
-
     return (
         <>
             <div className='container mx-auto mt-20 md:mt-20 lg:mt-24 xl:mt-[10.5rem]'>
@@ -61,9 +61,9 @@ const Service = () => {
                         {
                             services.map((item, idx) => (
                                 <SwiperSlide key={idx}>
-                                    <div className='h-[32.18rem] bg-[#252734] text-white flex flex-col p-16'>
+                                    <Link to={'/service'}><div className='h-[32.18rem] bg-[#252734] text-white flex flex-col p-16'>
                                         <MdWeb className='text-[3.5rem] mb-[3rem]' />
-                                        <h3 className='text-[1.75rem] mb-[3rem] font-poppins'>{item.title}</h3>
+                                        <h3 className='text-[1.75rem] mb-[3rem] font-poppins'>{item.name}</h3>
                                         <p className='text-[#858792] text-[1rem] font-normal pb-3 font-poppins  flex items-center gap-6'><CgChevronDoubleRight />
                                             {item.s1}</p>
                                         <p className='text-[#858792] text-[1rem] font-normal pb-3 font-poppins  flex items-center gap-6'><CgChevronDoubleRight />
@@ -74,7 +74,7 @@ const Service = () => {
                                             {item.s4}</p>
                                         <p className='text-[#858792] text-[1rem] font-normal pb-3 font-poppins  flex items-center gap-6'><CgChevronDoubleRight />
                                             {item.s5}</p>
-                                    </div>
+                                    </div></Link>
                                 </SwiperSlide>
                             ))
                         }

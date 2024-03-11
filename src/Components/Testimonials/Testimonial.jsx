@@ -24,27 +24,27 @@ const Testimonial = () => {
 
                         <SwiperSlide>
                             <div className="h-96 w-full bg-[#282A37] flex flex-col items-start justify-center px-24">
-                                <p className='text-white text-[2rem] pb-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempore? Nam consequuntur natus rerum minus. Ratione, id!</p>
-                                <p className='text-white text-[2rem] font-poppins pb-3'>Lorem, ipsum.</p>
-                                <p className='text-[#858792] text-[1.2rem] font-poppins'>Lorem.</p>
+                                <p className='text-white text-[2rem] pb-6'>Exceptional service! They turned my outdated website into a sleek masterpiece. Highly recommend for anyone seeking top-notch web development.</p>
+                                <p className='text-white text-[2rem] font-poppins pb-3'>Alexander Flik</p>
+                                <p className='text-[#858792] text-[1.2rem] font-poppins'>BlueTech Solutions</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                        <div className="h-96 w-full bg-[#282A37] flex flex-col items-start justify-center px-24">
-                                <p className='text-white text-[2rem] pb-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempore? Nam consequuntur natus rerum minus. Ratione, id!</p>
-                                <p className='text-white text-[2rem] font-poppins pb-3'>Lorem, ipsum.</p>
-                                <p className='text-[#858792] text-[1.2rem] font-poppins'>Lorem.</p>
+                            <div className="h-96 w-full bg-[#282A37] flex flex-col items-start justify-center px-24">
+                                <p className='text-white text-[2rem] pb-6'>Incredible attention to detail! Their team transformed my vision into a stunning reality. Couldn't be happier with the results!</p>
+                                <p className='text-white text-[2rem] font-poppins pb-3'>Thomas</p>
+                                <p className='text-[#858792] text-[1.2rem] font-poppins'>PixelPerfect WebWorks</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                        <div className="h-96 w-full bg-[#282A37] flex flex-col items-start justify-center px-24">
-                                <p className='text-white text-[2rem] pb-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempore? Nam consequuntur natus rerum minus. Ratione, id!</p>
-                                <p className='text-white text-[2rem] font-poppins pb-3'>Lorem, ipsum.</p>
-                                <p className='text-[#858792] text-[1.2rem] font-poppins'>Lorem.</p>
+                            <div className="h-96 w-full bg-[#282A37] flex flex-col items-start justify-center px-24">
+                                <p className='text-white text-[2rem] pb-6'>Outstanding professionalism! From start to finish, they exceeded my expectations. The website they created surpassed all others in design and functionality. Amazing job!</p>
+                                <p className='text-white text-[2rem] font-poppins pb-3'>Emily</p>
+                                <p className='text-[#858792] text-[1.2rem] font-poppins'>CodeCraft Studios</p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                        <div className="h-96 w-full bg-[#282A37] flex flex-col items-start justify-center px-24">
+                            <div className="h-96 w-full bg-[#282A37] flex flex-col items-start justify-center px-24">
                                 <p className='text-white text-[2rem] pb-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempore? Nam consequuntur natus rerum minus. Ratione, id!</p>
                                 <p className='text-white text-[2rem] font-poppins pb-3'>Lorem, ipsum.</p>
                                 <p className='text-[#858792] text-[1.2rem] font-poppins'>Lorem.</p>

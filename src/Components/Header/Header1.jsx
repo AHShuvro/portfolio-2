@@ -27,7 +27,7 @@ const Header1 = () => {
                                     <li className=' text-[1.12rem] leading-[7.5rem] text-[#858792]'>Contact</li>
                                 </ul>
                             </div>
-                            <a className=""><img className='w-[10.68rem] h-[3.43rem]' src="assets/img/logo.webp" alt="" /></a>
+                            <h3 className='text-white text-3xl'>A H Shuvro</h3>
                         </div>
                         <div className="hidden lg:flex">
                             <ul className='flex gap-12 items-center'>
@@ -41,7 +41,7 @@ const Header1 = () => {
                                         onMouseLeave={() => setDropdown('')} className={dropdown === "Service" ? `absolute bg-[#2A2C39] pb-3 pl-4 pr-10` : `hidden`}>
                                         <Link to={'/service'}><li className=' text-[1.12rem] pt-3 text-[#858792]'>Service</li></Link>
 
-                                        <Link to={'/serviceDetails'}><li className=' text-[1.12rem] pt-3 text-[#858792]'>Service Details</li></Link>
+                                        <Link to={'/serviceDetails/1'}><li className=' text-[1.12rem] pt-3 text-[#858792]'>Service Details</li></Link>
                                     </div>
                                 </div>
                                 <div className=''>

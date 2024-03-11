@@ -6,8 +6,8 @@ const Contact = () => {
     return (
         <>
             <div className='container'>
-                <div className='mt-32 pb-36 flex justify-between items-start gap-20'>
-                    <div className='w-2/6'>
+                <div className='mt-32 pb-36 flex flex-col md:flex-row justify-between items-start gap-20'>
+                    <div className='w-full lg:w-2/6'>
                         <div className='bg-[#252734] text-white flex flex-col px-10 py-12 '>
 
                             <div className='px-8 py-6 bg-[#2A2C39] mb-5'>
@@ -37,8 +37,8 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='w-4/6'>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116833.8318789773!2d90.33728815181978!3d23.780975728157546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2z4Kai4Ka-4KaV4Ka-!5e0!3m2!1sbn!2sbd!4v1708593211586!5m2!1sbn!2sbd" width="800" height="600" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div className='w-full lg:w-4/6'>
+                        <iframe className="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116833.8318789773!2d90.33728815181978!3d23.780975728157546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2z4Kai4Ka-4KaV4Ka-!5e0!3m2!1sbn!2sbd!4v1708593211586!5m2!1sbn!2sbd" width="800" height="600" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         <div>
                             <div className='mt-32'>
                                 <p className='text-[1.12rem] font-light text-[#858792] font-poppins'> ||  Get In Touch
