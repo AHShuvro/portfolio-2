@@ -51,7 +51,7 @@ const Header1 = () => {
                                         onMouseLeave={() => setDropdown('')} className={dropdown === "Blog" ? `absolute bg-[#2A2C39] pb-3 pl-4 pr-10` : `hidden`}>
                                         <Link to={'/blog'}><li className=' text-[1.12rem] pt-3 text-[#858792]'>Blog</li></Link>
 
-                                        <Link to={'/blogDetails'}><li className=' text-[1.12rem] pt-3 text-[#858792]'>Blog Details</li></Link>
+                                        <Link to={'/blogDetails/1'}><li className=' text-[1.12rem] pt-3 text-[#858792]'>Blog Details</li></Link>
                                     </div>
                                 </div>
                                 <div className=''>

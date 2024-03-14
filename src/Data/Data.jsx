@@ -97,6 +97,108 @@ const services = [
     },
 ];
 
+const projects = [
+    {
+        img: 'https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg',
+        title: 'amar sunar bangla',
+        type: 'Web development',
+
+    },
+    {
+        img: 'https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg',
+        title: 'amar sunar bangla',
+        type: 'Web development',
+
+    },
+    {
+        img: 'https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg',
+        title: 'amar sunar bangla',
+        type: 'Web development',
+
+    },
+    {
+        img: 'https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg',
+        title: 'amar sunar bangla',
+        type: 'Web development',
+
+    },
+    {
+        img: 'https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg',
+        title: 'amar sunar bangla',
+        type: 'Web development',
+
+    },
+    {
+        img: 'https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg',
+        title: 'amar sunar bangla',
+        type: 'Web development',
+
+    },
+]
+
+const blogs = [
+    {
+        id: '1',
+        class: 'buisness',
+        name: 'Mark Spector',
+        category: 'Web development',
+        date: '07 February, 2021',
+        title1: `UI design can make easy your complex product.`,
+        title2: `Don't wait until you officially started
+        business to line these up.`,
+        description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.
+
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.
+        
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.`
+    },
+    {
+        id: '2',
+        class: 'buisness',
+        name: 'Mark Spector',
+        category: 'Web development',
+        date: '07 February, 2021',
+        title1: `UI design can make easy your complex product.`,
+        title2: `Don't wait until you officially started
+        business to line these up.`,
+        description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.
+
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.
+        
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.`
+    },
+    {
+        id: '3',
+        class: 'buisness',
+        name: 'Mark Spector',
+        category: 'Web development',
+        date: '07 February, 2021',
+        title1: `UI design can make easy your complex product.`,
+        title2: `Don't wait until you officially started
+        business to line these up.`,
+        description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.
+
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.
+        
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.`
+    },
+    {
+        id: '4',
+        class: 'buisness',
+        name: 'Mark Spector',
+        category: 'Web development',
+        date: '07 February, 2021',
+        title1: `UI design can make easy your complex product.`,
+        title2: `Don't wait until you officially started
+        business to line these up.`,
+        description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.
+
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.
+        
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.`
+    },
+]
+
 const achievements = [
     {
         type: "Happy Clients",
@@ -116,4 +218,4 @@ const achievements = [
 ]
 
 
-export { services, achievements }
+export { services, achievements, blogs, projects }
