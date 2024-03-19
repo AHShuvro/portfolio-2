@@ -5,7 +5,7 @@ import { Autoplay, Navigation } from 'swiper/modules';
 
 const Testimonial = () => {
     return (
-        <div className="bg-[#252734] py-20 md:py-20 lg:py-24 xl:py-[10.5rem]">
+        <div className="bg-[#252734] px-3 py-20 md:py-20 lg:py-24 xl:py-[10.5rem]">
             <div className="container mx-auto">
                 <div className="flex justify-start">
                     <div>

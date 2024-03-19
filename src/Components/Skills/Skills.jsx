@@ -6,7 +6,7 @@ const Skills = () => {
     
     return (
         <>
-            <div className='flex-1 bg-[#252734] mt-20 md:mt-20 lg:mt-24 xl:mt-[10.5rem] py-20 md:py-20 lg:py-24 xl:py-[10.5rem]'>
+            <div className='flex-1 bg-[#252734] px-3 mt-20 md:mt-20 lg:mt-24 xl:mt-[10.5rem] py-20 md:py-20 lg:py-24 xl:py-[10.5rem]'>
                 <div className='container flex flex-col xl:flex-row gap-20 items-center justify-between'>
                     <div>
                         <p className='text-[1.12rem] font-light text-[#858792] font-poppins'> ||  Special Skills</p>

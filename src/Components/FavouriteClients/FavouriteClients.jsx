@@ -8,7 +8,7 @@ const FavouriteClients = () => {
         <>
 
 
-            <div className='container mx-auto my-20 md:my-20 lg:my-24 xl:my-[10.5rem]'>
+            <div className='container mx-auto p-3 my-20 md:my-20 lg:my-24 xl:my-[10.5rem]'>
                 <div>
                     <p className='text-[1.12rem] font-light text-[#858792] font-poppins'> ||  Favourite Clients
                     </p>

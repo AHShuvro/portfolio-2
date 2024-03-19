@@ -15,7 +15,7 @@ const AllServices = () => {
 
                 {
                     services.map((item, idx) => (
-                        <div key={idx} className='h-[32.18rem] bg-[#252734] text-white flex flex-col p-16'>
+                        <div key={idx} className='min-h-[32.18rem] bg-[#252734] text-white flex flex-col p-16'>
                             <Link to={`/serviceDetails/${item.id}`}><MdWeb className='text-[3.5rem] mb-[3rem]' />
                                 <h3 className='text-[1.75rem] mb-[3rem] font-poppins'>{item.name}</h3>
                                 <p className='text-[#858792] text-[1rem] font-normal pb-3 font-poppins  flex items-center gap-6'><CgChevronDoubleRight />

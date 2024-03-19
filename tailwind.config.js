@@ -11,6 +11,7 @@ export default {
         'md': '768px',
         'lg': '900px',
         'xl': '1100px',
+        'xxl': '1500px',
       },
       container: {
         center: true,
@@ -19,7 +20,8 @@ export default {
           sm: '2rem',
           md: '2rem',
           lg: '3rem',
-          xl: '6rem',
+          xl: '3rem',
+          xxl: '6rem',
         },
       },
     },

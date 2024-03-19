@@ -53,7 +53,7 @@ const Portfolio = () => {
                                     </figure>
                                     <div className="card-body items-start text-start">
                                         <h2 className="text-3xl font-poppins font-medium text-white">{item.title}</h2>
-                                        <p className=' text-white'>{item.type}</p>
+                                        <p className=' text-white font-poppins'>{item.type}</p>
                                     </div>
                                 </div>
                             </SwiperSlide>

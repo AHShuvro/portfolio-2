@@ -1,16 +1,25 @@
 import { Link } from "react-router-dom";
 import { MdKeyboardDoubleArrowLeft, MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { blogs } from "../../Data/Data";
+import { useEffect, useState } from "react";
 
 
 
 const Blog = () => {
+    const [page, setPage] = useState(4);
+    const handlePage = (e) => {
+        setPage(e * 4);
+    }
+
+    const totalPage = blogs.length / 4;
+
+
     return (
         <>
             <div className="container mt-32">
                 <div className=" flex flex-col gap-12">
                     {
-                        blogs.map((item, idx) => (
+                        blogs.slice(page - 4, page).map((item, idx) => (
                             <div key={idx} className="flex flex-col lg:flex-row items-center justify-between p-[3.12rem] bg-[#252734]">
                                 <img src="assets/img/blog-feed-img-1.webp" alt="" />
                                 <div>
@@ -24,11 +33,11 @@ const Blog = () => {
                 </div>
                 <div className="mt-16">
                     <div className="flex gap-4">
-                        <Link><p className="text-[#858792] hover:bg-[#252734] transition duration-500 ease-in-out transform hover:scale-110 text-center font-poppins border border-[#858792] rounded-sm  w-14 h-14 flex items-center justify-center"><MdKeyboardDoubleArrowLeft /></p></Link>
-                        <Link><p className="text-[#858792] hover:bg-[#252734] transition duration-500 ease-in-out transform hover:scale-110 text-center font-poppins border border-[#858792] rounded-sm w-14 h-14 flex items-center justify-center">1</p></Link>
-                        <Link><p className="text-[#858792] hover:bg-[#252734] transition duration-500 ease-in-out transform hover:scale-110 text-center font-poppins border border-[#858792] rounded-sm w-14 h-14 flex items-center justify-center">2</p></Link>
-                        <Link><p className="text-[#858792] hover:bg-[#252734] transition duration-500 ease-in-out transform hover:scale-110 text-center font-poppins border border-[#858792] rounded-sm w-14 h-14 flex items-center justify-center">3</p></Link>
-                        <Link><p className="text-[#858792] hover:bg-[#252734] transition duration-500 ease-in-out transform hover:scale-110 text-center font-poppins border border-[#858792] rounded-sm  w-14 h-14 flex items-center justify-center"><MdKeyboardDoubleArrowRight /></p></Link>
+                        <Link className={page <= 4 ? `hidden` : 'block'}><p onClick={() => handlePage(page / 4 - 1)} className="text-[#858792] hover:bg-[#252734] transition duration-500 ease-in-out transform hover:scale-110 text-center font-poppins border border-[#858792] rounded-sm  w-14 h-14 flex items-center justify-center"><MdKeyboardDoubleArrowLeft /></p></Link>
+                        {Array.from({ length: totalPage + 1}).map((_, index) => (
+                            <Link key={index}><p onClick={() => handlePage(index + 1)} className="text-[#858792] hover:bg-[#252734] transition duration-500 ease-in-out transform hover:scale-110 text-center font-poppins border border-[#858792] rounded-sm w-14 h-14 flex items-center justify-center">{index + 1}</p></Link>
+                        ))}
+                        <Link><p onClick={() => handlePage(page / 4 + 1)} className="text-[#858792] hover:bg-[#252734] transition duration-500 ease-in-out transform hover:scale-110 text-center font-poppins border border-[#858792] rounded-sm  w-14 h-14 flex items-center justify-center"><MdKeyboardDoubleArrowRight /></p></Link>
                     </div>
 
                 </div>
