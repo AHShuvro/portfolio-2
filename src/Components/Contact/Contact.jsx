@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Contact = () => {
     return (
         <>
-            <div className='container'>
+            <div className='container px-2'>
                 <div className='mt-32 pb-36 flex flex-col md:flex-row justify-between items-start gap-20'>
                     <div className='w-full lg:w-2/6'>
                         <div className='bg-[#252734] text-white flex flex-col px-10 py-12 '>

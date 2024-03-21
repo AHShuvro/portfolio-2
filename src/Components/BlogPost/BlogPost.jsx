@@ -15,7 +15,7 @@ const BlogPost = () => {
                 <div className=" flex flex-col gap-12">
                     
                     {
-                        blogs.map((item, idx) => (
+                        blogs.slice(0, 3).map((item, idx) => (
                             <Link key={idx} to={'/blog'}><div className="flex flex-col lg:flex-row items-center justify-between p-[3.12rem] bg-[#252734]">
                                 <img src="assets/img/blog-feed-img-1.webp" alt="" />
                                 <div>
