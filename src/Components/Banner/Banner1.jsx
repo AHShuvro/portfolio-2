@@ -1,5 +1,4 @@
 import './Banner1.css'
-import './../Font.css'
 const Banner1 = () => {
     return (
         <>
