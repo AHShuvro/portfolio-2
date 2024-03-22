@@ -3,7 +3,7 @@ import { achievements } from '../../Data/Data';
 const Achievement = () => {
     return (
         <>
-            <div className='bg-[#282A37] py-20 md:py-20 lg:py-24 xl:py-[10.5rem] p-2 sm:p-0'>
+            <div className='bg-[#282A37] py-20 sm:py-20 md:py-20 lg:py-24 xl:py-[10.5rem] p-2 sm:p-0'>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-8 items-center justify-between container'>
                     {
                         achievements.map((item, idx) => (
