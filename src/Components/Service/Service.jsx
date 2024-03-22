@@ -2,9 +2,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
-
-
-import './../Font.css'
 import { MdWeb } from "react-icons/md";
 import { CgChevronDoubleRight } from "react-icons/cg";
 import { services } from '../../Data/Data';

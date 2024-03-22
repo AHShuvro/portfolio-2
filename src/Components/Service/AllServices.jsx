@@ -1,4 +1,3 @@
-import './../Font.css'
 import { MdWeb } from "react-icons/md";
 import { CgChevronDoubleRight } from "react-icons/cg";
 import { services } from '../../Data/Data';

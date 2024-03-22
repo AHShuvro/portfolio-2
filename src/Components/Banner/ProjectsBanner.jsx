@@ -1,5 +1,4 @@
 import './Banner1.css'
-import './../font.css'
 import { Link } from 'react-router-dom';
 
 const ProjectsBanner = () => {

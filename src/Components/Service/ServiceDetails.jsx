@@ -1,4 +1,4 @@
-import './../Font.css'
+
 import { FaAnglesRight } from "react-icons/fa6";
 import { Link, useParams } from 'react-router-dom';
 import StickyBox from 'react-sticky-box';
