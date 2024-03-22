@@ -3,15 +3,29 @@ import { FaAnglesRight } from "react-icons/fa6";
 import { Link, useParams } from 'react-router-dom';
 import StickyBox from 'react-sticky-box';
 import { services } from '../../Data/Data';
+import { useEffect, useRef } from 'react';
 
 const ServiceDetails = () => {
 
     const { id } = useParams();
+    const topRef = useRef(null);
+
 
     const service = services.find(service => service.id == id);
 
+    useEffect(() => {
+        if (topRef.current) {
+            topRef.current.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+                inline: 'nearest',
+            });
+        }
+    }, [service]);
+
     return (
         <>
+            <div ref={topRef}></div>
             <div className='container mx-auto mt-20 md:mt-20 lg:mt-24 xl:mt-[10.5rem]'>
                 <div >
                     <div className='flex flex-col xl:flex-row overflow-ellipsis justify-around mt-[7.5rem]' style={{ display: "flex", alignItems: "flex-start" }}>

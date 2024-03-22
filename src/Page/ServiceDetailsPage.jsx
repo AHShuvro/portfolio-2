@@ -8,7 +8,7 @@ const ServiceDetailsPage = () => {
     return (
         <>
             <div className="bg-[#2A2C39]">
-                <Header1 />
+                <Header1/>
                 <ServiceBanner />
                 <ServiceDetails/>
                 <FavouriteClients/>

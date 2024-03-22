@@ -38,13 +38,13 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className='w-full lg:w-4/6'>
-                        <iframe className="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116833.8318789773!2d90.33728815181978!3d23.780975728157546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2z4Kai4Ka-4KaV4Ka-!5e0!3m2!1sbn!2sbd!4v1708593211586!5m2!1sbn!2sbd" width="800" height="600" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe className="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116833.8318789773!2d90.33728815181978!3d23.780975728157546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2z4Kai4Ka-4KaV4Ka-!5e0!3m2!1sbn!2sbd!4v1708593211586!5m2!1sbn!2sbd" width="800" height="600" allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                         <div>
                             <div className='mt-32'>
                                 <p className='text-[1.12rem] font-light text-[#858792] font-poppins'> ||  Get In Touch
                                 </p>
                                 <h2 className=' text-[#fff] text-[2rem] md:text-[2rem] lg:text-[3rem] xl:text-[4rem] leading-tight font-bold mt-4'>If you have any porject or need help. Contact me</h2>
-                                <p className='text-[#858792] font-poppins pt-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.</p>
+                                <p className='text-[#858792] font-poppins pt-6'>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.`}</p>
                             </div>
                             <div className='grid grid-cols-2 gap-6 mt-8 text-white font-poppins'>
                                 <input className='bg-transparent border border-[#fff3] focus:border-white h-6 p-8' placeholder='Name' type="text" name="" id="" />

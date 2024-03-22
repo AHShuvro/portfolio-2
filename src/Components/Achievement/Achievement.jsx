@@ -3,8 +3,8 @@ import { achievements } from '../../Data/Data';
 const Achievement = () => {
     return (
         <>
-            <div className='bg-[#282A37] py-20 md:py-20 lg:py-24 xl:py-[10.5rem]'>
-                <div className='grid grid-cols-1 md:grid-cols-3 gap-8 items-center justify-around container px-2'>
+            <div className='bg-[#282A37] py-20 md:py-20 lg:py-24 xl:py-[10.5rem] p-2 sm:p-0'>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-8 items-center justify-around container'>
                     {
                         achievements.map((item, idx) => (
                             <div key={idx} className='flex md:flex-col lg:flex-row items-center space-x-2 xl:space-x-6'>

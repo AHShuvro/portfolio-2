@@ -8,7 +8,7 @@ const Education = () => {
     return (
         <>
             <div className='bg-[#252734] py-32'>
-                <div className='container px-3'>
+                <div className='container'>
                     <div className='flex items-center justify-between gap-8 mb-24'>
                         <div onClick={() => handleSelect(true)} className='w-full py-6 border border-[#fff1] flex items-center justify-center cursor-pointer active:bg-[#2A2C39]'>
                             <p className='text-[2.25rem] md:text-[2.5rem] lg:text-[2.81rem] xl:text-[3.62rem] text-white '>Education</p>

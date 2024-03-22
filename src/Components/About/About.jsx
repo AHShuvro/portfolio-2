@@ -5,7 +5,7 @@ import "./About.css"
 const About = () => {
     return (
         <>
-            <div className='text-white flex flex-col xl:flex-row xl:justify-between items-center container px-2 mt-32 mb-32'>
+            <div className='text-white flex flex-col xl:flex-row justify-between items-center container mx-auto mt-32 mb-32'>
                 <div className='w-full xl:w-[28.75rem] h-[24.75rem] mb-12 xl:mb-0 bg-[#252734] flex flex-col items-center justify-center gap-12'>
 
                     <div className="h-20 w-20 rounded-full bg-[#2A2C39] flex items-center justify-center cursor-pointer btn-ripple">

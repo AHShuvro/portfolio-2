@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 const Footer1 = () => {
     return (
-        <div className="bg-[#252734] ">
-            <div className="container px-3 flex flex-1 flex-col pt-20 md:pt-20 lg:pt-24 xl:pt-[10.5rem] pb-6 md:pb-8 lg:pb-8 xl:pb-12">
+        <div className="bg-[#252734] p-2 sm:p-0">
+            <div className="container flex flex-1 flex-col pt-20 md:pt-20 lg:pt-24 xl:pt-[10.5rem] pb-6 md:pb-8 lg:pb-8 xl:pb-12">
                 <div>
                     <p className='text-[1.12rem] font-light text-[#858792] font-poppins text-center'> ||  Get Latest Updates
                     </p>
