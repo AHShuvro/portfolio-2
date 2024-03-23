@@ -10,7 +10,7 @@ const FavouriteClients = () => {
 
             <div className='container mx-auto my-20 md:my-20 lg:my-24 xl:my-[10.5rem]'>
                 <div className='p-2 sm:p-0'>
-                    <p className='text-[1.12rem] font-light text-[#858792] font-poppins'> ||  Favourite Clients
+                    <p className='text-[1.12rem] font-light text-[#858792] font-poppins'>Favourite Clients
                     </p>
                     <h2 className=' text-[#fff] text-[2.25rem] md:text-[2.5rem] lg:text-[3.12rem] xl:text-[4.37rem] font-bold mt-4'>Work With Trusted Comapny.</h2>
                 </div>

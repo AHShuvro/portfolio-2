@@ -12,8 +12,8 @@ const Service = () => {
     return (
         <>
             <div className='container mx-auto mt-20 md:mt-20 lg:mt-24 xl:mt-[10.5rem]'>
-                <div className='px-6 sm:p-0'>
-                    <p className='text-[1.12rem] font-light text-[#858792] font-poppins'> ||  My Services</p>
+                <div className='px-3 sm:px-0'>
+                    <p className='text-[1.12rem] font-light text-[#858792] font-poppins'>My Services</p>
                     <h2 className='text-[2.25rem] md:text-[2.5rem] lg:text-[3.12rem] xl:text-[4.37rem] text-[#fff] font-bold mt-4'>Service Provide For My Clients.</h2>
                 </div>
                 <div className='flex justify-between mt-[7.5rem]'>

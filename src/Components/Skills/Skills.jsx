@@ -9,7 +9,7 @@ const Skills = () => {
             <div className='flex-1 bg-[#252734] px-3 mt-20 md:mt-20 lg:mt-24 xl:mt-[10.5rem] py-20 md:py-20 lg:py-24 xl:py-[10.5rem]'>
                 <div className='container flex flex-col xl:flex-row gap-20 items-center justify-between'>
                     <div className="w-full xl:w-1/2">
-                        <p className='text-[1.12rem] font-light text-[#858792] font-poppins'> ||  Special Skills</p>
+                        <p className='text-[1.12rem] font-light text-[#858792] font-poppins'>Special Skills</p>
                         <h2 className='text-[2.25rem] md:text-[2.5rem] lg:text-[3.12rem] xl:text-[4.37rem] text-[#fff] font-bold mt-4'>My Special Skill Field Here.</h2>
                         <div className='flex items-center justify-between gap-4 h-16 w-[14.5rem] mt-14 md:mt-16 lg:mt-20 xl:mt-24 px-10 rounded-[40rem] border-[0.062rem] border-[#3b3d49]'>
                             <button className=" hover:bg-[#2A2C39] transition-all duration-500 text-[1rem] text-white font-poppins">Get Resume </button>
