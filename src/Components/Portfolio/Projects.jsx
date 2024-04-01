@@ -1,3 +1,6 @@
+import { SwiperSlide } from "swiper/react";
+import { projects } from "../../Data/Data";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
     return (
@@ -11,46 +14,23 @@ const Projects = () => {
                     <button className="hover:bg-[#6c757d] transition-all duration-500 text-[1rem] md:text-[1.12rem] text-white py-1 lg:py-3 px-1 md:px-3 lg:px-4 rounded-[40rem] border-[0.1rem] hover:border-none border-[#6c757d] focus:bg-[#6c757d]" tabIndex="0">Shopify</button>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div className="">
-                        <div className="w-full pl-8 sm:pl-14 xl:pl-24 pt-20 pr-8 sm:pr-14 xl:pr-24 bg-[#252734]">
-                            <img className="h-[40vh]" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="" />
+                    {
+                        projects.map((item, idx) => (
 
-                        </div>
-                        <h3 className="text-3xl font-poppins font-medium text-white pt-10">Lorem ipsum dolor sit amet consectetur.</h3>
-                        <p className=' text-white font-poppins pt-4'>Lorem ipsum dolor sit.</p>
-                    </div>
-                    <div className="">
-                        <div className="w-full pl-8 sm:pl-14 xl:pl-24 pt-20 pr-8 sm:pr-14 xl:pr-24 bg-[#252734]">
-                            <img className="h-[40vh]" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="" />
+                            <SwiperSlide key={idx}>
+                                <Link to={`/projectDetails/${item.id}`}>
+                                    <div className="">
+                                        <div className="w-full pl-8 sm:pl-14 xl:pl-24 pt-20 pr-8 sm:pr-14 xl:pr-24 bg-[#252734]">
+                                            <img className="h-[40vh]" src={item.img} alt="" />
 
-                        </div>
-                        <h3 className="text-3xl font-poppins font-medium text-white pt-10">Lorem ipsum dolor sit amet consectetur.</h3>
-                        <p className=' text-white font-poppins pt-4'>Lorem ipsum dolor sit.</p>
-                    </div>
-                    <div className="">
-                        <div className="w-full pl-8 sm:pl-14 xl:pl-24 pt-20 pr-8 sm:pr-14 xl:pr-24 bg-[#252734]">
-                            <img className="h-[40vh]" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="" />
-
-                        </div>
-                        <h3 className="text-3xl font-poppins font-medium text-white pt-10">Lorem ipsum dolor sit amet consectetur.</h3>
-                        <p className=' text-white font-poppins pt-4'>Lorem ipsum dolor sit.</p>
-                    </div>
-                    <div className="">
-                        <div className="w-full pl-8 sm:pl-14 xl:pl-24 pt-20 pr-8 sm:pr-14 xl:pr-24 bg-[#252734]">
-                            <img className="h-[40vh]" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="" />
-
-                        </div>
-                        <h3 className="text-3xl font-poppins font-medium text-white pt-10">Lorem ipsum dolor sit amet consectetur.</h3>
-                        <p className=' text-white font-poppins pt-4'>Lorem ipsum dolor sit.</p>
-                    </div>
-                    <div className="">
-                        <div className="w-full pl-8 sm:pl-14 xl:pl-24 pt-20 pr-8 sm:pr-14 xl:pr-24 bg-[#252734]">
-                            <img className="h-[40vh]" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="" />
-
-                        </div>
-                        <h3 className="text-3xl font-poppins font-medium text-white pt-10">Lorem ipsum dolor sit amet consectetur.</h3>
-                        <p className=' text-white font-poppins pt-4'>Lorem ipsum dolor sit.</p>
-                    </div>
+                                        </div>
+                                        <h3 className="text-3xl font-poppins font-medium text-white pt-10">{item.title}</h3>
+                                        <p className=' text-white font-poppins pt-4'>{item.type}</p>
+                                    </div>
+                                </Link>
+                            </SwiperSlide>
+                        ))
+                    }
                 </div>
             </div>
         </>

@@ -99,39 +99,82 @@ const services = [
 
 const projects = [
     {
-        img: 'https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg',
+        img: 'https://i.ibb.co/vc63rC7/ashui-1.jpg',
         title: 'amar sunar bangla',
         type: 'Web development',
+        description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.`,
+        projectName: 'ASHUI',
+        client: 'Demo',
+        budget: '$00.00',
+        duration: '20',
+        date: '12 dec 2023',
+        id: '1'
+
 
     },
     {
-        img: 'https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg',
+        img: 'https://i.ibb.co/L9YNYGW/Wedding-Whispers-1.jpg',
         title: 'amar sunar bangla',
         type: 'Web development',
+        description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.`,
+        projectName: 'Wedding-Whispers',
+        client: 'Demo',
+        budget: '$00.00',
+        duration: '20',
+        date: '12 dec 2023',
+        id: '2'
 
     },
     {
-        img: 'https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg',
+        img: 'https://i.ibb.co/vc63rC7/ashui-1.jpg',
         title: 'amar sunar bangla',
         type: 'Web development',
+        description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.`,
+        projectName: 'ASHUI',
+        client: 'Demo',
+        budget: '$00.00',
+        duration: '20',
+        date: '12 dec 2023',
+        id: '3'
 
     },
     {
-        img: 'https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg',
+        img: 'https://i.ibb.co/L9YNYGW/Wedding-Whispers-1.jpg',
         title: 'amar sunar bangla',
         type: 'Web development',
+        description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.`,
+        projectName: 'Wedding-Whispers',
+        client: 'Demo',
+        budget: '$00.00',
+        duration: '20',
+        date: '12 dec 2023',
+        id: '4'
 
     },
     {
-        img: 'https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg',
+        img: 'https://i.ibb.co/vc63rC7/ashui-1.jpg',
         title: 'amar sunar bangla',
         type: 'Web development',
+        description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.`,
+        projectName: 'ASHUI',
+        client: 'Demo',
+        budget: '$00.00',
+        duration: '20',
+        date: '12 dec 2023',
+        id: '5'
 
     },
     {
-        img: 'https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg',
+        img: 'https://i.ibb.co/L9YNYGW/Wedding-Whispers-1.jpg',
         title: 'amar sunar bangla',
         type: 'Web development',
+        description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.`,
+        projectName: 'Wedding-Whispers',
+        client: 'Demo',
+        budget: '$00.00',
+        duration: '20',
+        date: '12 dec 2023',
+        id: '6'
 
     },
 ]
