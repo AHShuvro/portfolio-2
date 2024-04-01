@@ -95,6 +95,69 @@ const services = [
         s5: "Lorem, ipsum dolor.",
         id: "6"
     },
+    {
+        icon: "MdWeb",
+        arowIcon: "CgChevronDoubleRight",
+        title: "Essential Blockchain Innovations",
+        description: `Blockchain is a decentralized, distributed ledger technology that enables the secure recording, storage, and transfer of data across a network of computers. It consists of a chain of blocks, where each block contains a timestamp and a link to the previous block, creating a chronological and immutable record of transactions or data entries.
+
+        The decentralized nature of blockchain means that data is not stored in a central location but is instead replicated and synchronized across multiple nodes or computers in the network. This ensures transparency, integrity, and security, as changes to the data must be validated and agreed upon by the majority of participants in the network.
+        
+        Blockchain technology gained prominence with the introduction of Bitcoin, the first cryptocurrency, which uses blockchain to record and verify transactions without the need for intermediaries like banks or financial institutions. Since then, blockchain has found applications beyond cryptocurrencies, including supply chain management, digital identity verification, voting systems, smart contracts, and decentralized finance (DeFi).
+        
+        Smart contracts, which are self-executing contracts with the terms of the agreement directly written into code, allow for automated and transparent transactions on blockchain networks. Decentralized applications (DApps) leverage blockchain technology to enable peer-to-peer interactions without relying on centralized servers.
+        
+        While blockchain offers numerous benefits such as transparency, security, and decentralization, it also faces challenges related to scalability, energy consumption, regulatory compliance, and interoperability. Nevertheless, blockchain continues to evolve and disrupt various industries, promising to revolutionize how data is stored, shared, and managed in the digital age.`,
+        name: "Blockchain",
+        s1: "Lorem, ipsum dolor.",
+        s2: "Lorem, ipsum dolor.",
+        s3: "Lorem, ipsum dolor.",
+        s4: "Lorem, ipsum dolor.",
+        s5: "Lorem, ipsum dolor.",
+        id: "7"
+    },
+    {
+        icon: "MdWeb",
+        arowIcon: "CgChevronDoubleRight",
+        title: "Essential Blockchain Innovations",
+        description: `Blockchain is a decentralized, distributed ledger technology that enables the secure recording, storage, and transfer of data across a network of computers. It consists of a chain of blocks, where each block contains a timestamp and a link to the previous block, creating a chronological and immutable record of transactions or data entries.
+
+        The decentralized nature of blockchain means that data is not stored in a central location but is instead replicated and synchronized across multiple nodes or computers in the network. This ensures transparency, integrity, and security, as changes to the data must be validated and agreed upon by the majority of participants in the network.
+        
+        Blockchain technology gained prominence with the introduction of Bitcoin, the first cryptocurrency, which uses blockchain to record and verify transactions without the need for intermediaries like banks or financial institutions. Since then, blockchain has found applications beyond cryptocurrencies, including supply chain management, digital identity verification, voting systems, smart contracts, and decentralized finance (DeFi).
+        
+        Smart contracts, which are self-executing contracts with the terms of the agreement directly written into code, allow for automated and transparent transactions on blockchain networks. Decentralized applications (DApps) leverage blockchain technology to enable peer-to-peer interactions without relying on centralized servers.
+        
+        While blockchain offers numerous benefits such as transparency, security, and decentralization, it also faces challenges related to scalability, energy consumption, regulatory compliance, and interoperability. Nevertheless, blockchain continues to evolve and disrupt various industries, promising to revolutionize how data is stored, shared, and managed in the digital age.`,
+        name: "Blockchain",
+        s1: "Lorem, ipsum dolor.",
+        s2: "Lorem, ipsum dolor.",
+        s3: "Lorem, ipsum dolor.",
+        s4: "Lorem, ipsum dolor.",
+        s5: "Lorem, ipsum dolor.",
+        id: "8"
+    },
+    {
+        icon: "MdWeb",
+        arowIcon: "CgChevronDoubleRight",
+        title: "Essential Blockchain Innovations",
+        description: `Blockchain is a decentralized, distributed ledger technology that enables the secure recording, storage, and transfer of data across a network of computers. It consists of a chain of blocks, where each block contains a timestamp and a link to the previous block, creating a chronological and immutable record of transactions or data entries.
+
+        The decentralized nature of blockchain means that data is not stored in a central location but is instead replicated and synchronized across multiple nodes or computers in the network. This ensures transparency, integrity, and security, as changes to the data must be validated and agreed upon by the majority of participants in the network.
+        
+        Blockchain technology gained prominence with the introduction of Bitcoin, the first cryptocurrency, which uses blockchain to record and verify transactions without the need for intermediaries like banks or financial institutions. Since then, blockchain has found applications beyond cryptocurrencies, including supply chain management, digital identity verification, voting systems, smart contracts, and decentralized finance (DeFi).
+        
+        Smart contracts, which are self-executing contracts with the terms of the agreement directly written into code, allow for automated and transparent transactions on blockchain networks. Decentralized applications (DApps) leverage blockchain technology to enable peer-to-peer interactions without relying on centralized servers.
+        
+        While blockchain offers numerous benefits such as transparency, security, and decentralization, it also faces challenges related to scalability, energy consumption, regulatory compliance, and interoperability. Nevertheless, blockchain continues to evolve and disrupt various industries, promising to revolutionize how data is stored, shared, and managed in the digital age.`,
+        name: "Blockchain",
+        s1: "Lorem, ipsum dolor.",
+        s2: "Lorem, ipsum dolor.",
+        s3: "Lorem, ipsum dolor.",
+        s4: "Lorem, ipsum dolor.",
+        s5: "Lorem, ipsum dolor.",
+        id: "9"
+    },
 ];
 
 const projects = [
