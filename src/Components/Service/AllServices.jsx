@@ -44,8 +44,8 @@ const AllServices = () => {
 
     return (
         <div ref={topRef} className='container'>
-            <p className="text-[#858792] font-poppins my-6">Showing {((currentServicePage - 1) * 6) + 1}-{currentServicePage * 6} of {services.length} results</p>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-10 items-center justify-center my-[7.5rem]'>
+            <p className="text-[#858792] font-poppins mb-6 mt-[7.5rem]">Showing {((currentServicePage - 1) * 6) + 1}-{currentServicePage * 6} of {services.length} results</p>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-10 items-center justify-center mb-[7.5rem]'>
 
                 {
                     services.slice((currentServicePage - 1) * 6, currentServicePage * 6).map((item, idx) => (
