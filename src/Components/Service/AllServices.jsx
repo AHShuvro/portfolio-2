@@ -45,7 +45,7 @@ const AllServices = () => {
     return (
         <div ref={topRef} className='container'>
             <p className="text-[#858792] font-poppins mb-6 mt-[7.5rem]">Showing {((currentServicePage - 1) * 6) + 1}-{currentServicePage * 6} of {services.length} results</p>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-10 items-center justify-center mb-[7.5rem]'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-10 items-center justify-center'>
 
                 {
                     services.slice((currentServicePage - 1) * 6, currentServicePage * 6).map((item, idx) => (
@@ -67,7 +67,7 @@ const AllServices = () => {
                 }
             </div>
 
-            <div className="mt-16">
+            <div className="mt-16 mb-[7.5rem]">
                 <div className="flex gap-4">
                     <Link className={`${currentServicePage === 1 ? "hidden" : ""}`}><p onClick={() => handlePage(currentServicePage - 1)} className="text-[#858792] hover:bg-[#252734] transition duration-500 ease-in-out transform hover:scale-110 text-center font-poppins border border-[#858792] rounded-sm  w-14 h-14 flex items-center justify-center"><MdKeyboardDoubleArrowLeft /></p></Link>
                     {Array.from({ length: totalServicePages }).map((_, index) => (
