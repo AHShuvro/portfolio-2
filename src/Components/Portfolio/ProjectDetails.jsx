@@ -2,7 +2,7 @@
 import { FaAnglesRight } from "react-icons/fa6";
 import { Link, useParams } from 'react-router-dom';
 import StickyBox from 'react-sticky-box';
-import { projects, services } from '../../Data/Data';
+import { projects } from '../../Data/Data';
 import { useEffect, useRef } from 'react';
 
 const ProjectDetails = () => {
