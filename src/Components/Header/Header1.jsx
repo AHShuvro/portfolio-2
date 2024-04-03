@@ -64,7 +64,7 @@ const Header1 = () => {
 
                                             <Link to={'/project'}><li className=' text-[1.12rem] pt-3 text-[#858792]'>Project</li></Link>
 
-                                            <Link to={'/projectDetails'}><li className=' text-[1.12rem] pt-3 text-[#858792]'>Project Details</li></Link>
+                                            <Link to={'/projectDetails/1'}><li className=' text-[1.12rem] pt-3 text-[#858792]'>Project Details</li></Link>
                                         </div>
                                     </div>
 

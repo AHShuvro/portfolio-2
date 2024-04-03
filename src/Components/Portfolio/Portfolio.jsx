@@ -54,8 +54,7 @@ const Portfolio = () => {
                                         <figure className="px-10 pt-10">
                                             <img src={item.img} alt="Shoes" className="rounded-xl" />
                                         </figure>
-                                        <div className="card-body items-start text-start">
-                                            <h2 className="text-3xl font-poppins font-medium text-white">{item.title}</h2>
+                                        <div className="card-body items-start">
                                             <p className=' text-white font-poppins'>{item.type}</p>
                                         </div>
                                     </div>

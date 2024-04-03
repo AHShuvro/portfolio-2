@@ -31,7 +31,7 @@ const ProjectDetails = () => {
                     <div className='flex flex-col xl:flex-row overflow-ellipsis justify-around mt-[7.5rem]' style={{ display: "flex", alignItems: "flex-start" }}>
 
                         <div className='w-full px-3 xl:w-3/5'>
-                            <img className='w-full' src={project.img} alt="" />
+                            <Link to={project.link}><img className='w-full' src={project.img} alt="" /></Link>
                             <div className=''>
                                 <p className='text-[#858792] font-poppins pt-8'>{project.projectName}</p>
                                 <h3 className='text-[2rem] md:text-[2rem] lg:text-[3rem] xl:text-[4rem] text-[#fff] font-bold mt-4 leading-none'>{project.title}</h3>

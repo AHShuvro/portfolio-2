@@ -163,7 +163,8 @@ const services = [
 const projects = [
     {
         img: 'https://i.ibb.co/vc63rC7/ashui-1.jpg',
-        title: 'amar sunar bangla',
+        link: 'https://ahsui.vercel.app',
+        title: 'Discover Versatility in ASHUi Component Library Today!',
         type: 'Web development',
         description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.`,
         projectName: 'ASHUI',
@@ -177,6 +178,7 @@ const projects = [
     },
     {
         img: 'https://i.ibb.co/L9YNYGW/Wedding-Whispers-1.jpg',
+        link: '',
         title: 'amar sunar bangla',
         type: 'Web development',
         description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.`,
@@ -190,6 +192,7 @@ const projects = [
     },
     {
         img: 'https://i.ibb.co/9GTG0VL/Brand-shop-1.jpg',
+        link: 'https://brand-shop-fawn.vercel.app',
         title: 'amar sunar bangla',
         type: 'Web development',
         description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.`,
@@ -203,6 +206,7 @@ const projects = [
     },
     {
         img: 'https://i.ibb.co/L9YNYGW/Wedding-Whispers-1.jpg',
+        link: '',
         title: 'amar sunar bangla',
         type: 'Web development',
         description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.`,
@@ -216,7 +220,8 @@ const projects = [
     },
     {
         img: 'https://i.ibb.co/vc63rC7/ashui-1.jpg',
-        title: 'amar sunar bangla',
+        link: 'https://ahsui.vercel.app',
+        title: 'Discover Versatility in ASHUi Component Library Today!',
         type: 'Web development',
         description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.`,
         projectName: 'ASHUI',
@@ -229,6 +234,7 @@ const projects = [
     },
     {
         img: 'https://i.ibb.co/9GTG0VL/Brand-shop-1.jpg',
+        link: 'https://brand-shop-fawn.vercel.app',
         title: 'amar sunar bangla',
         type: 'Web development',
         description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.`,
