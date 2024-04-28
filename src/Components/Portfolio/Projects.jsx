@@ -1,4 +1,3 @@
-import { SwiperSlide } from "swiper/react";
 import { projects } from "../../Data/Data";
 import { Link } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
@@ -39,7 +38,6 @@ const Projects = () => {
         }
     }, [currentProjectPage]);
 
-    //jdfj
 
 
     return (
@@ -58,7 +56,7 @@ const Projects = () => {
                         {
                             projects.slice((currentProjectPage - 1) * 4, currentProjectPage * 4).map((item, idx) => (
 
-                                <SwiperSlide key={idx}>
+                                <div key={idx}>
                                     <Link to={`/projectDetails/${item.id}`}>
                                         <div className="">
                                             <div className="w-full pl-8 sm:pl-14 xl:pl-24 pt-20 pr-8 sm:pr-14 xl:pr-24 bg-[#252734]">
@@ -69,7 +67,7 @@ const Projects = () => {
                                             <p className=' text-white font-poppins pt-4'>{item.type}</p>
                                         </div>
                                     </Link>
-                                </SwiperSlide>
+                                </div>
                             ))
                         }
                     </div>

@@ -257,7 +257,7 @@ const projects = [
         budget: '$00.00',
         duration: '20',
         date: '28 dec 2024',
-        id: '6'
+        id: '7'
 
     },
 ]
