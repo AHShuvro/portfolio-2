@@ -246,6 +246,20 @@ const projects = [
         id: '6'
 
     },
+    {
+        img: 'https://i.ibb.co/MsgYxKn/dashboard-1.jpg',
+        link: 'https://dashboard-1-five.vercel.app/',
+        title: 'Sure! How about "Admin Hub: Centralized Command Center',
+        type: 'Dashboard',
+        description: `Efficiently manage all aspects of your platform with our Admin Hub. Streamline operations, monitor key metrics, and make informed decisions from one centralized command center. Simplify complex tasks, enhance productivity, and stay in control with our intuitive dashboard interface.`,
+        projectName: 'Admin Dashboard',
+        client: 'Demo',
+        budget: '$00.00',
+        duration: '20',
+        date: '28 dec 2024',
+        id: '6'
+
+    },
 ]
 
 const blogs = [
