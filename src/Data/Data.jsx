@@ -233,8 +233,8 @@ const projects = [
 
     },
     {
-        img: 'https://i.ibb.co/9GTG0VL/Brand-shop-1.jpg',
-        link: 'https://brand-shop-fawn.vercel.app',
+        img: 'https://i.ibb.co/GtfLD4G/clothing.jpg',
+        link: 'https://clothing-clone-site.vercel.app/',
         title: 'amar sunar bangla',
         type: 'Web development',
         description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.`,
@@ -258,6 +258,20 @@ const projects = [
         duration: '20',
         date: '28 dec 2024',
         id: '7'
+
+    },
+    {
+        img: 'https://i.ibb.co/GtfLD4G/clothing.jpg',
+        link: 'https://clothing-clone-site.vercel.app',
+        title: 'Sure! How about "Admin Hub: Centralized Command Center',
+        type: 'Dashboard',
+        description: `Efficiently manage all aspects of your platform with our Admin Hub. Streamline operations, monitor key metrics, and make informed decisions from one centralized command center. Simplify complex tasks, enhance productivity, and stay in control with our intuitive dashboard interface.`,
+        projectName: 'Admin Dashboard',
+        client: 'Demo',
+        budget: '$00.00',
+        duration: '20',
+        date: '28 dec 2024',
+        id: '8'
 
     },
 ]
